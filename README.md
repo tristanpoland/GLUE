@@ -26,6 +26,10 @@ cd GLUE
 ```bash
 cargo install --path .
 ```
+-- OR --
+```bash
+grip install glue
+```
 
 ## Usage
 
@@ -97,8 +101,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Known Limitations
 
-- Very large binary files are not optimally handled
-- No built-in compression support
+- Binaries are ignored entirely
 - No file metadata preservation (timestamps, permissions)
 
 ## License
